@@ -1,22 +1,35 @@
 #include<bits/stdc++.h>
 using namespace std;
-using i32 = long long;
-#define endl '\n'
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int n, m;
     cin >> n >> m;
-    vector<int> arr(n + 1, -1);
+    vector<int> v(n + 2, 0);
     for (int i = 1; i <= n; i++) {
-        cin >> arr[i];
+        cin >> v[i];
     }
     while (m--) {
         int q;
         cin >> q;
-        auto it = lower_bound(arr.begin(), arr.end(), q);
-        cout << (arr[it - arr.begin()] == q ? it - arr.begin() + 1 : -1) << " ";
+        auto find = [&](const int k) {
+            int l = 0, r = n + 1;
+            while (l + 1 < r) {
+                int mid = (l + r) >> 1;
+                if (v[mid] >= k) {
+                    r = mid;
+                } else {
+                    l = mid;
+                }
+            }
+            return r;
+        };
+        if (v[find(q)] == q) {
+            cout << find(q) << " ";
+        } else {
+            cout << "-1" << " ";
+        }
     }
     return 0;
 }

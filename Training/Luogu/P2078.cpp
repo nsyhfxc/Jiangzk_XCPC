@@ -1,55 +1,50 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+#define int long long
 using namespace std;
+const int N = 400000 + 10; // 足够大
+int fa[N], sz[N];
+int n, m, p, q;
+int find(const int &x) {
+    return fa[x] == x ? x : fa[x] = find(fa[x]);
+}
 
-struct DSU {
-    vector<int> fa; //父节点
-    vector<int> sz; // 当前节点的根节点下朋友圈的总人数
-
-    DSU(int n) {
-        fa.resize(n + 1);
-        iota(fa.begin(), fa.end(), 0); // 递增填充
-        sz.assign(n + 1, 1); //初始化为n+1个1
+void unionset(int x, int y) {
+    x = find(x);
+    y = find(y);
+    if (x != y) {
+        fa[find(x)] = find(y);
+        sz[y] += sz[x];
     }
+}
 
-    int find(int x) {
-        return fa[x] == x ? x : fa[x] = find(fa[x]);
-    }
-
-    void unionset(int x, int y) {
-        x = find(x);
-        y = find(y);
-        if (x != y) {
-            fa[find(x)] = find(y);
-            sz[y] += sz[x];
-        }
-    }
-};
-
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int n, m, p, q;
+signed main() {
+    freopen("test.in", "r", stdin);
+    freopen("test.out", "w", stdout);
     cin >> n >> m >> p >> q;
-    int off = n; //女生编号是负的，需要引入数组下标偏移量，男生保持1到n不变，女生的先取负，再加上男生的编号总数，就保证男生和女生的编号都是正的，且不重叠
-    int tot = n + m; //男生和女生的总数
-    DSU dsu(tot);
+    int off = n;
+    int tot = n + m;
+    for (int i = 1; i <= tot; i++) {
+        fa[i] = i;
+        sz[i] = 1;
+    }
     for (int i = 1; i <= p; i++) {
         int x, y;
         cin >> x >> y;
-        dsu.unionset(x, y);//先合并男生
+        unionset(x, y);
     }
     for (int i = 1; i <= q; i++) {
         int x, y;
         cin >> x >> y;
         x = -x + off;
         y = -y + off;
-        dsu.unionset(x, y);//再合并女生
+        unionset(x, y);
     }
-    int rootM = dsu.find(1);// 小明的根节点
-    int rootW = dsu.find(off + 1); //小红的根节点
-    int cntM = dsu.sz[rootM];// 与小明认识的男生数
-    int cntW = dsu.sz[rootW]; //与小红认识的女生数
-    cout << min(cntM, cntW) << endl;//总数，看看是想找对象的男生多，还是想找对象的女生多
+    int rootM = find(1);
+    int rootW = find(off + 1);
+    int cntM = sz[rootM];
+    int cntW = sz[rootW];
+    cout << min(cntM, cntW) << endl;
+    fclose(stdin);
+    fclose(stdout);
     return 0;
 }
