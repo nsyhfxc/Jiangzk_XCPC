@@ -5,14 +5,14 @@ constexpr int MOD = 1e9 + 7;
 #define endl '\n'
 
 struct matrix {
-    i32 c[101][101]{};
+    ll c[101][101]{};
 
     matrix() {
         memset(c, 0, sizeof(c));
     }
 } A, res;
 
-i32 n, k;
+ll n, k;
 
 matrix operator*(const matrix &x, const matrix &y) {
     matrix t;
@@ -26,7 +26,7 @@ matrix operator*(const matrix &x, const matrix &y) {
     return t;
 }
 
-void ksm(i32 &k) {
+void ksm(ll &k) {
     for (int i = 1; i <= n; i++) {
         res.c[i][i] = 1;
     }
