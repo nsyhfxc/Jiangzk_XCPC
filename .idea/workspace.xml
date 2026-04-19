@@ -6,6 +6,7 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -21,17 +22,15 @@
       <config projectName="Jiangzk_XCPC" targetName="Jiangzk_XCPC" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d51ad03-caa4-42f4-9a48-418544c2bd93" name="更改" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp">
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+    <list default="true" id="7d51ad03-caa4-42f4-9a48-418544c2bd93" name="更改" comment="添加文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contest/test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +53,13 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/nsyhfxc/Jiangzk_XCPC.git&quot;,
-    &quot;accountId&quot;: &quot;6032976c-e51e-4470-8c25-af1f1fea53db&quot;
+    &quot;accountId&quot;: &quot;cc89ff6d-eb21-4f74-84fb-9ba408148107&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="3CWzVb7vU2rg1ZJpIPIBCFa8FvC" />
+  <component name="ProjectId" id="3CXCAdRkcmpmWPcRSMBxpWSgE7X" />
   <component name="ProjectStatusUIService">{
   &quot;uiKindId&quot;: &quot;Widget&quot;
 }</component>
@@ -107,7 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1776513720149</updated>
       <workItem from="1776513722593" duration="997000" />
-      <workItem from="1776516144473" duration="11000" />
+      <workItem from="1776522391263" duration="33000" />
+      <workItem from="1776565068949" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="INIT">
       <option name="closed" value="true" />
@@ -165,15 +164,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776514671033</updated>
     </task>
-    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp">
+    <task id="LOCAL-00008" summary="添加文件">
       <option name="closed" value="true" />
-      <created>1776515659262</created>
+      <created>1776516711579</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1776515659262</updated>
+      <updated>1776516711579</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加文件">
+      <option name="closed" value="true" />
+      <created>1776516723507</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776516723507</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +201,7 @@
     <MESSAGE value="修改" />
     <MESSAGE value="INIT" />
     <MESSAGE value="测试更改" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp" />
+    <MESSAGE value="添加文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加文件" />
   </component>
 </project>
