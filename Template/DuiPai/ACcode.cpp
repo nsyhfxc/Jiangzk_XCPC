@@ -2,7 +2,8 @@
 using namespace std;
 
 void solve() {
-    int a, b, c, k;
+    int a, b, c, k
+
     cin >> a >> b >> c >> k;
     while (k--) {
         int tempa = a;
