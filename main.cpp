@@ -6,10 +6,6 @@ using u64 = unsigned long long;
 
 void solve() {
     cout << "My new start" << endl;
-    /*
-    因为撞了南墙,所以现在才知道回头.
-    2026年4月18日.
-    */
     //修改1
     //修改2
     //修改3
