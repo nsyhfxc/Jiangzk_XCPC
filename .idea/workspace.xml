@@ -28,17 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d51ad03-caa4-42f4-9a48-418544c2bd93" name="更改" comment="Merge remote-tracking branch 'origin/main'&#10;推送&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp">
-      <change afterPath="$PROJECT_DIR$/Qoj/4-25/A.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2026_4_18_20_10____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2026_4_18_20_21____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2026_4_18_20_33____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2026_4_18_20_35____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2026_4_18_20_50____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2026_4_18_20_10_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2026_4_18_20_21_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2026_4_18_20_33_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2026_4_18_20_35_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2026_4_18_20_50_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/Educational Codeforces Round 189/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/Educational Codeforces Round 189/B.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,12 +94,30 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="C/C++ 文件.A.cpp">
     <configuration name="Jiangzk_XCPC" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Jiangzk_XCPC" TARGET_NAME="Jiangzk_XCPC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Jiangzk_XCPC" RUN_TARGET_NAME="Jiangzk_XCPC">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="A.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Jiangzk_XCPC" TARGET_NAME="A.cpp" CONFIG_NAME="A.cpp">
+      <option name="sourceFile" value="CodeForces\Educational Codeforces Round 189\A.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Jiangzk_XCPC" TARGET_NAME="B.cpp" CONFIG_NAME="B.cpp">
+      <option name="sourceFile" value="CodeForces\Educational Codeforces Round 189\B.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ 文件.A.cpp" />
+        <item itemvalue="C/C++ 文件.B.cpp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -120,7 +129,7 @@
       <workItem from="1776513722593" duration="997000" />
       <workItem from="1776516144473" duration="11000" />
       <workItem from="1777096429787" duration="338000" />
-      <workItem from="1777202047367" duration="7000" />
+      <workItem from="1777202047367" duration="1693000" />
     </task>
     <task id="LOCAL-00001" summary="INIT">
       <option name="closed" value="true" />
@@ -186,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776515659262</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'&#10;推送&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp">
+      <option name="closed" value="true" />
+      <created>1777202176658</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1777202176658</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +225,7 @@
     <MESSAGE value="INIT" />
     <MESSAGE value="测试更改" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;推送&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;推送&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp" />
   </component>
 </project>
