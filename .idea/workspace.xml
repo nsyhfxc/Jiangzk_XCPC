@@ -28,8 +28,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d51ad03-caa4-42f4-9a48-418544c2bd93" name="更改" comment="Merge remote-tracking branch 'origin/main'&#10;推送&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp">
-      <change afterPath="$PROJECT_DIR$/CodeForces/Educational Codeforces Round 189/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/Educational Codeforces Round 189/B.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +72,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;C/C++ 文件.A.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ 文件.B.cpp.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -129,7 +129,9 @@
       <workItem from="1776513722593" duration="997000" />
       <workItem from="1776516144473" duration="11000" />
       <workItem from="1777096429787" duration="338000" />
-      <workItem from="1777202047367" duration="1693000" />
+      <workItem from="1777202047367" duration="1770000" />
+      <workItem from="1777205074321" duration="1074000" />
+      <workItem from="1777278773906" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="INIT">
       <option name="closed" value="true" />
@@ -203,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777202176658</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'&#10;推送&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;main.cpp">
+      <option name="closed" value="true" />
+      <created>1777203821538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1777203821538</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
