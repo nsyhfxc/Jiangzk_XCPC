@@ -9,6 +9,7 @@ void solve() {
     cin >> n;
     string a, b;
     cin >> a >> b;
+    cout << a + b << endl;
 }
 
 int main() {
