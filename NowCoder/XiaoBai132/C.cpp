@@ -8,7 +8,7 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int t = 1;
-    // cin >> t;
+    cin >> t;
     vector<u64> arr;
     for (int i = 0; i < 63; i++) {
         for (int j = i; j < 63; j++) {
