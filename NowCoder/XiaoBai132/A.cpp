@@ -6,6 +6,7 @@ using u64 = unsigned long long;
 
 void solve() {
 
+
 }
 
 int main() {
