@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 template<typename T>
 void input(T arr[], int size) {
     for (int i = 0; i < size; ++i) {
@@ -7,13 +8,12 @@ void input(T arr[], int size) {
     }
 }
 
-template <typename T>
+template<typename T>
 void sort(T arr[], int size) {
-    
     sort(arr, arr + size, greater<T>());
 }
 
-template <typename T>
+template<typename T>
 void output(T arr[], int size) {
     for (int i = 0; i < size; ++i) {
         cout << setw(10) << arr[i];
